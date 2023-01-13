@@ -6,11 +6,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int quit = 5;
-        int quit2 = 5;
+
         int choice = 0;
         int choice2 = 0;
-        while (quit !=0) {
+
             System.out.println("Выберите тип карты:");
             System.out.println(" 1. Дебетовая карта");
             System.out.println(" 2. Кредитная карта");
@@ -156,8 +155,7 @@ public class Main {
                     System.out.println("Вы ввели неправильный символ");
             }
             System.out.println("\n\nВведите 0 для выхода");
-            quit = scan.nextInt();
+
 
         }
     }
-}
